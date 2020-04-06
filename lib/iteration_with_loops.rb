@@ -3,7 +3,6 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   src.length.times do |index|
-    
     src[index].length.times do |inner_index|
       if src[index][inner_index] % 2 == 0 
         puts src[index][inner_index]
